@@ -1,0 +1,33 @@
+# Ignora artefactos locales de Python, pruebas y herramientas de desarrollo.
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales y configuraciones locales.
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Distribuciones y metadatos de empaquetado.
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Cachés y resultados generados por herramientas.
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.ua/
+.understand-anything/
+
+# Configuración personal de editores y sistemas operativos.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
