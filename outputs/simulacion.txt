@@ -1,0 +1,31 @@
+[ALLOC] PID=0 Pages=1
+[MAP] PID=0 Page=0 -> Frame=0
+[ALLOC] PID=1 Pages=3
+[MAP] PID=1 Page=0 -> Frame=1
+[MAP] PID=1 Page=1 -> Frame=2
+[MAP] PID=1 Page=2 -> Frame=3
+[TRANSLATE] PID=1 VA=123
+[PAGE] 0
+[OFFSET] 123
+[FRAME] 1
+[PHYSICAL] 4219
+[TRANSLATE] PID=1 VA=9000
+[PAGE] 2
+[OFFSET] 808
+[FRAME] 3
+[PHYSICAL] 13096
+[ALLOC] PID=2 Pages=1
+[MAP] PID=2 Page=0 -> Frame=4
+[TRANSLATE] PID=2 VA=0
+[PAGE] 0
+[OFFSET] 0
+[FRAME] 4
+[PHYSICAL] 16384
+[EVICT] PID=1 Page=1 -> Frame=2 is now free
+[TRANSLATE] PID=1 VA=5000
+[PAGE] 1
+[OFFSET] 904
+[PAGE FAULT] PID=1 Page=1 is not resident in RAM
+[BOUNDS ERROR] PID=1 VA=12288 is outside process address space
+[PROCESS NOT FOUND] PID=404 is not allocated
+[MEMORY ERROR] PID 2 necesita 2 marcos; quedan 1 libres.
